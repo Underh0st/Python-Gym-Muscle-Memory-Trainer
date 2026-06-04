@@ -1,84 +1,50 @@
 # Python Gym: Muscle Memory Trainer
 
-Professional muscle memory trainer designed to master Python syntax through guided repetition.
+Entrenador profesional de memoria muscular diseñado para masterizar la sintaxis de Python mediante repetición guiada.
 
----
+## Descripción
 
-## Overview
+Python Gym es una aplicación de escritorio técnica orientada a cerrar la brecha entre el conocimiento teórico y la práctica real de codificación. El software se enfoca en la internalización de símbolos y comandos fundamentales como comentarios, funciones de salida, asignación de variables y control de flujo. Proporciona un entorno moderno y libre de distracciones para garantizar que la sintaxis básica se convierta en una respuesta instintiva del desarrollador.
 
-Python Gym is a specialized training application built to bridge the gap between theoretical knowledge and practical coding. By focusing on muscle memory, it helps beginners internalize the most common Python symbols and commands such as comments, print functions, variable assignment, and flow control. The application provides a modern, distraction-free environment to ensure that fundamental syntax becomes second nature.
+## Vista Previa
 
----
+![Application Preview](assets/screenshot.png)
 
-## Visual Preview
+## Características Técnicas
 
-(A screenshot of the application should be placed in the assets folder)
-> ![Application Preview](assets/screenshot.png)
+- Seguimiento Estructurado: Barras de progreso en tiempo real para cada módulo de entrenamiento.
+- Interfaz Gráfica (GUI): Entorno profesional desarrollado en CustomTkinter, eliminando la dependencia de la terminal.
+- Contexto de Sistema: Cada ejercicio detalla la interacción del código con la memoria RAM y el procesador.
+- IDE de Reto Final: Incluye un entorno de pruebas interactivo donde el usuario debe estructurar y programar una calculadora funcional siguiendo una arquitectura de comentarios.
+- Validación Dinámica: Sistema de simulación de consola que procesa entradas reales del usuario para verificar la lógica del script desarrollado.
 
----
+## Instalación y Ejecución
 
-## Key Features
+### Ejecutable Independiente
+1. Acceda a la sección de Releases de este repositorio.
+2. Descargue la versión de Python_Gym_Trainer.exe.
+3. Ejecute el archivo en entornos Windows. No se requiere instalación previa de Python.
 
-- Structured Progress: Real-time progress bars tracking completion of each module.
-- Modern GUI: A professional windowed interface built with CustomTkinter, eliminating terminal dependency.
-- Technical Context: Each exercise is accompanied by an explanation of how the code interacts with system memory and the processor.
-- Integrated Execution Environment: A final testing stage where users can write and execute their own code within the application.
-- Efficiency Shortcut: Use the 'cd..' command to bypass repetitions for mastered concepts.
+### Ejecución desde Código Fuente
+1. Clonar el repositorio.
+2. Instalar dependencias: pip install customtkinter.
+3. Ejecutar: python main.py.
 
----
+## Módulos de Entrenamiento
 
-## Installation and Usage
+1. Planificación: Estructuración lógica mediante comentarios.
+2. Salida de Datos: Dominio de la función print.
+3. Gestión de Memoria: Asignación y almacenamiento de variables.
+4. Interacción: Captura dinámica de datos con input.
+5. Tipado: Conversión numérica mediante float.
+6. Valores Lógicos: Uso de booleanos para control de estado.
+7. Control de Flujo: Sentencias if y operadores relacionales.
+8. Persistencia: Bucles de aplicación con while y break.
 
-### Standalone Executable
-1. Navigate to the Releases section of this repository.
-2. Download the latest version of Gym_Python_Final_GUI.exe.
-3. Run the executable on Windows. No Python installation is required for this version.
+## Especificaciones de Desarrollo
 
-### Source Code
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Underh0st/Python-Gym-Muscle-Memory-Trainer.git
-   ```
-2. Install the necessary dependencies:
-   ```bash
-   pip install customtkinter
-   ```
-3. Execute the application:
-   ```bash
-   python main.py
-   ```
+- Lenguaje: Python 3.14
+- Librería GUI: CustomTkinter
+- Distribución: PyInstaller
 
----
-
-## Training Modules
-
-1. Script Planning: Structuring logic with comments.
-2. Data Output: Mastering the print function.
-3. Memory Management: Variable assignment and storage.
-4. User Interaction: Dynamic data capture with input.
-5. Data Typing: Numerical conversion using float.
-6. Logic and Flow: If statements and relational operators.
-7. Persistence: Application loops with while and break.
-
----
-
-## Technical Specifications
-
-- Language: Python 3.14
-- Framework: CustomTkinter (Modern GUI)
-- Distribution: PyInstaller (Single-file executable)
-
----
-
-## Contributions
-
-Contributions are welcome. If you have suggestions for new training modules or UI improvements, please submit a Fork and a subsequent Pull Request.
-
----
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for full details.
-
----
-Developed by Underh0st
+Desarrollado por Oscar Emiliano Constanzo Q. (CNTZO)
